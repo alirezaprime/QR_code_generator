@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "noto Sans Arabic", tahoma;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 18%,
+    rgba(253, 29, 29, 1) 69%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.container .h1 {
+  font-family: "lalezar", tahoma;
+}
+.container {
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container .info h1 {
+  font-family: "lalezar", tahoma;
+}
+.container form {
+  margin: 15px 0 25px;
+}
+.container form :where(input, button) {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+.container form input {
+  border: 1px solid #999;
+}
+.container form button {
+  background: #b953d1;
+  color: #fff;
+}
+.container .qr_code {
+  border: 1px solid #999;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.hidden {
+  display: none;
+}
